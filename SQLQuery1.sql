@@ -1,0 +1,11 @@
+﻿CREATE TABLE UserRegistration (
+    UserId INT IDENTITY(1,1) PRIMARY KEY,
+    FullName VARCHAR(250) NOT NULL,
+    Birthday VARCHAR(250) NOT NULL,
+    Gender VARCHAR(250) NOT NULL,
+    Address VARCHAR(250) NOT NULL,
+    Country VARCHAR(250) NOT NULL,
+    State VARCHAR(250) NOT NULL,
+    Username VARCHAR(250) NOT NULL,
+    Password VARCHAR(250) NOT NULL
+);
